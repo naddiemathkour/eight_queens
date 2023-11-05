@@ -2,6 +2,7 @@
 A couple cool implementations of the 8 Queens problem
 
 Depth Solution:
+
 ![](https://github.com/naddiemathkour/eight_queens/blob/main/depth_queens.gif)
     
     - Implements a slightly optimized depth first search for all possible queen combinations
