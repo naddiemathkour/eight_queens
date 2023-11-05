@@ -2,6 +2,8 @@
 A couple cool implementations of the 8 Queens problem
 
 Depth Solution:
+![](https://github.com/naddiemathkour/eight_queens/blob/main/depth_queens.gif)
+    
     - Implements a slightly optimized depth first search for all possible queen combinations
     
     - Chess board is tracked using a 64 bit Long Long integer
@@ -13,6 +15,7 @@ Depth Solution:
     - Upon finding a working solution, the value is saved to an array as an integer number and printed after all possible permutations have been tested
 
 Heap Solution:
+    
     - Implements Heap's Algorithm for generating all possible permutations given an array of size k
     
     - As permutations are generated, the board is built using shift and xor operations and then tested for collision
